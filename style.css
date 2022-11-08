@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* background: rgb(230, 213, 239); */
+  min-height: 100vh;
+
+    background-image: url("img.jpg");
+    
+    background-size: cover;
+
+    
+ }
+ .container{
+  text-align: center;
+justify-content: center;
+margin-top: 10%;
+border: 2px solid white;
+width: 24%;
+margin: 60px auto;
+padding: 58px 50px;
+font-family: cursive;
+border-radius: 10px;
+padding: 61px;
+background: border-box;
+height: 404px;
+
+  box-shadow: 12px 12px 12px #cbced1,
+              12px 12px 12px #cbced1;
+ } 
+ .center{
+  text-align: center;
+  justify-content: center;
+ } 
+ h1{
+  color: white;
+ }
+p{
+  color: white;
+  font-size: 30px;
+  
+}
+.display input{
+  font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: rgb(1, 0, 0);
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+
+label {
+  display: inline-block;
+  margin: 10px 0;
+} 
+
+input[type='text'],
+input[type='number'] {
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn {
+  width: 240px;
+ height: 40px;
+ background: #ff7200;
+ border: none;
+ margin-top: 30px;
+ font-size: 18px;
+ border-radius: 10px;
+ cursor: pointer;
+ color: #fff;
+ transition: 0.4s ease;
+}
+
+.btn:focus,
+.delete-btn:focus {
+  outline: 0;
+}
+
+
+
+button .btn{
+  position: absolute;
+    left: 381px;
+    width: 200px;
+    margin-top: 129px;
+}
+
+.conn{
+  margin-top: -50px;
+  margin-right: -100%;
+}
+.btn2{
+  width: 50px;
+  height: 20px;
+  background: #ff7200;
+  border: none;
+  margin-top: 30px;
+  font-size: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}

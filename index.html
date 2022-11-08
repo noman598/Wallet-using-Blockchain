@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+
+<script src="block.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- <div class="conn">
+    <h3>Connect With MetaMask</h3>
+    <button class="btn" id="connect" onclick="Connect()">Connect</button>
+  </div> -->
+    
+    <div class="container">
+      <div class="conn">
+      <button class="btn2" id="connect" onclick="Connect()">Connect</button>
+    </div>
+      <div class="display">
+        <h1>Enter Amount</h1>
+        <input type="text" id="amount"><br>
+
+        <h1>Balance</h1>
+        <p id="balance">$0.00</p>
+
+      </div>
+        
+        <button class="btn" id="deposite" onclick="deposite()">deposite</button>
+        <button class="btn" id="withdraw" onclick="withdraw()">Withdraw</button>
+    </div>
+</body>
+</html>
